@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="236.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="medicalapp.gui.LoginFXMLController">
+   <children>
+      <Pane prefHeight="264.0" prefWidth="277.0">
+         <children>
+            <Label layoutX="59.0" layoutY="38.0" text="Patient Management System" />
+            <Label fx:id="message" layoutX="122.0" layoutY="69.0" text="Label" textFill="#ff0404" />
+            <TextField fx:id="username" layoutX="62.0" layoutY="101.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="62.0" layoutY="154.0" promptText="Password" />
+            <Button layoutX="164.0" layoutY="211.0" mnemonicParsing="false" text="Login" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

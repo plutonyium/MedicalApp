@@ -6,6 +6,8 @@
 
 package medicalapp.data;
 
+import java.sql.Timestamp;
+
 /**
  *
  * @author Richard
